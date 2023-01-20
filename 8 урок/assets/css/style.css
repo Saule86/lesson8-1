@@ -1,0 +1,358 @@
+@import url(fonts.css);
+body{
+    font-family: 'PlayfairDisplay';
+    color: white;
+}
+header {
+    width: 100%;
+    height: 970px;
+}
+header .wrapper{
+    width: 1920px;
+    height: 970px;
+    background: url('../img/imgBackground\ 1.png') center no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-left: 120px;    
+}
+h1, h2, h3, h4{
+    font-weight: 700;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+
+header .wrapper .container{
+    display: flex;
+    align-items: center;        
+    justify-content: space-between;
+   
+}
+.burger-menu .line{
+    width: 20px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-right: 120px;
+}
+.menu a{
+    margin-right: 50px;
+    color: #FFFFFF;
+
+}
+.wrapper .title h1{
+    margin-top: 150px;  
+    width: 60%;
+}
+header .title p{
+    font-weight: 400px;
+    font-size: 25px;
+    margin-top: 50px;
+    
+    width: 30%;
+}
+header .wrapper .container2{
+    width: 50%;
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 120px;
+   
+}
+header .btn{
+    background-color: #DD9428;
+    padding: 25px 79px;
+    border-radius: 38px;
+    color: #331111;
+    font-weight: 600px;
+    font-size: 20px;
+    margin-right: 61px; 
+    
+}
+header .wrapper .container2 p{
+    width: 20%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-weight: 500px;
+    font-size: 16px;
+    color: #A1A8B6;
+}
+.social-network p{
+    font-weight: 209px;
+    font-size: 17px;
+    margin-bottom: 19px;
+    
+}
+.social-network .network-box{
+    display: flex;
+    justify-content:space-between;
+    width: 14%; 
+}
+header .social-network{
+   margin-bottom: 199px;   
+}
+
+section.tour .wrapper{
+    width: 100%;
+    margin: 160px 260px;
+}
+.tour .container{
+    width: 100%;
+    /* height: 475px; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .tour-box-cover{
+    width: 55%;
+    height: 475px;
+    background-image: url('../img/imgHawaii\ 1.png');
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+section.tour .wrapper .container .tour-box{
+    width: 40%;
+     
+}
+.container .tour-box h2{
+    margin-bottom: 30px;
+    color: #000000;
+    /* width: 40%; */
+}
+.container .tour-box p{
+    font-weight: 400px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #000000;
+    /* width: 60%; */
+}
+.container .tour-box .btn{
+    /* background-color: none; */
+    padding: 25px 79px;
+    border-radius: 38px;
+    color: #DD9428;
+    border: 2px solid #DD9428;
+    /* font-weight: 400px; */
+    font-size: 20px;
+    /* margin-right: 61px; */
+}
+.tour-box-cover .data{
+    margin: 40px 0 288px 60px;
+}
+.tour-box-cover .data p:first-child{
+    font-weight: 700px;
+    font-size: 23px;
+    margin-bottom: 4px;
+}
+.tour-box-cover .data p:last-child{
+    font-weight: 400px;
+    font-size: 16px;
+}
+.tour-box-cover .direction {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 60px;
+    margin-right: 67px;    
+}
+.tour-box-cover .direction p{
+    font-weight: 500px;
+    font-size: 20px;
+    width: 40%;  
+}
+
+section.request {
+width: 100%;
+height: 518px;
+}
+.wrapper .request-cover{
+    width: 1920px;
+    height:  518px;
+    background: url('../img/imgForm\ 1.png') center no-repeat;
+    /* padding-top: 40px;
+    padding-left: 120px;   */
+}
+.request-cover{ 
+    display: flex;
+    align-items: center;
+}
+.request-cover .title{ 
+    width: 80%;
+    margin: 133px 84px 134px 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 895px;
+}
+.request-cover .title h2{
+    font-weight: 700px;
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #000000;
+} 
+.request-cover .title p{
+    font-weight: 400px;
+    font-size: 18px;
+    color: #000000;
+    width: 50%;
+    
+}
+.request-cover .request-box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 133px;
+    margin-bottom: 50px;
+}
+.request-cover .btn:nth-child(1){    
+    padding: 25px 67px 25px 20px;
+    border-radius: 38px;
+    color: #CED8DF;
+    border: 2px solid #CED8DF;
+    font-size: 20px;
+    margin-right: 61px;
+    text-align: start;
+    margin-bottom: 20px;
+ }
+ .request-cover .btn:nth-child(2){    
+    padding: 25px 67px 25px 20px;
+    border-radius: 38px;
+    color: #CED8DF;
+    border: 2px solid #CED8DF;
+    font-size: 20px;
+    margin-right: 61px;
+    text-align: start;
+    margin-bottom: 20px;
+ }
+ .request-cover .btn:nth-child(3) {    
+    padding: 25px 80px;
+    border-radius: 38px;
+    background-color: #DD9428;
+    color: black;
+    border: 2px solid ;
+    font-size: 20px;
+    margin-right: 61px;
+    text-align: center; 
+    margin-bottom: 10px;   
+ }
+ .request-box p{
+    font-weight: 400px;
+    font-size: 11px;
+    color: #000000;
+    width: 60%;
+    
+ }
+ section.about .wrapper{
+    width: 100%;
+    margin: 160px 260px;
+    
+}
+.about .container2{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .about-tour{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   margin-right: 100px;
+}
+.about-tour h2{
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 39px;
+    color: #000000;
+    width: 95%;
+}
+.about-tour p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #000000;
+    width: 80%;
+
+}
+.about-tour .btn{
+    padding: 25px 55px;
+    border-radius: 38px;
+    color: #DD9428;
+    border: 2px solid #DD9428;
+    font-size: 20px;
+    width: 70%;
+}
+.about-tour-cover{
+    width: 80%;
+    height: 475px;
+    background-image: url('../img/imgHawaii\ 1\ \(1\).png');
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+.about-tour-cover .text{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.about-tour-cover .text p:first-child{
+    font-weight: 700px;
+    font-size: 23px;
+    margin-bottom: 4px;
+}
+.about-tour-cover .text p:last-child{
+    font-weight: 400px;
+    font-size: 16px;
+    margin-bottom: 276px;
+}
+.about-tour-cover .direction2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 60px;
+    margin-right: 67px;  
+}
+.about-tour-cover .direction2 p{
+    font-weight: 400px;
+    font-size: 16px;
+    width: 50%; 
+}
+footer{
+    width: 100%;
+}
+footer .wrapper{
+    width: 1920px;
+    height: 180px;
+    background-color: #F5F5F5;
+    color: #333333;   
+    padding-top: 40px;
+    padding-left: 120px;
+}
+.wrapper .container3{
+    display: flex;
+    /* margin-right: 123px; */
+
+}
+.wrapper .container3 .title{
+    display: flex;
+    color:#90A4B2;
+    width: 35%;
+}
+.wrapper .container3 .title p:first-child{
+    margin-right: 120px;
+    margin-left: 123px;
+}
+
+.wrapper .container3 .social-network{
+    margin-left: 500px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 10%;
+}
